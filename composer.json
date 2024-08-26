@@ -1,0 +1,28 @@
+{
+    "name": "vinchan/object-builder",
+    "description": "object builder package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vin\\ObjectBuilder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vinchan",
+            "email": "ademo@vip.qq.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "php": ">8.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "v3.58",
+        "phpunit/phpunit": "v9.6"
+    },
+    "scripts": {
+        "test": "./bin/co-phpunit --colors=always",
+        "cs-fix": "php-cs-fixer fix $1"
+    }
+}
